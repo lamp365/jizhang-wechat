@@ -1,0 +1,83 @@
+/**index.wxss**/
+
+
+
+.notice {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.container{
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+.getuserinfo-container{
+  color: #2252fb;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.appname{
+  position: absolute;
+  top: 10vh;
+  font-size: 6vw;
+}
+.free{
+  top: 15vh;
+  position: absolute;
+  font-size: 10vw;
+}
+.share-cn{
+  top: 30vh;
+  position: absolute;
+  font-size: 16vw;
+  font-weight: bold;
+}
+.share-en{
+  top: 42vh;
+  position: absolute;
+  font-size: 9vw;
+}
+.btn-get{
+  top: 55vh;
+  position: absolute;
+  background-color: #2252fb;
+  color: white;
+  width: 36vw;
+  font-size: 4vw;
+  text-align: center;
+  border-radius: 6vw;
+}
+.bt-img{
+  width: 30vw;
+  height: 32vw;
+  position: absolute;
+  bottom: 5vh;
+}
+.view-r-b{
+  background-color: #2252fb;
+  width: 30vw;
+  height: 30vw;
+  position: absolute;
+  right: -14vw;
+  bottom: -5vh;
+  border-radius: 50%;
+}
+
+.view-l-t{
+  background-color: #2252fb;
+  width: 36vw;
+  height: 36vw;
+  position: absolute;
+  left: -14vw;
+  top: -5vh;
+  border-radius: 50%;
+}

@@ -1,0 +1,19 @@
+<!--index.wxml-->
+
+
+<view class="container">
+    <view class="getuserinfo-container" wx:if="{{!hasUserInfo && canIUseGetUserProfile}}">
+      <view class="appname">网络云记账</view>
+      <view class="free">永久免费</view>
+      <view class="share-cn">共享账本</view>
+      <view class="share-en">SHARE</view>
+      <button class="btn-get" bindtap="getUserProfile">立即使用</button>
+      <image class="bt-img" src="../../imgs/index_img_bottom.png"></image>
+      <view class="view-r-b"></view>
+      <view class="view-l-t"></view>
+    </view>
+    
+    <block wx:else>
+      <text class="notice">微信版本过低</text>
+    </block>
+</view>
