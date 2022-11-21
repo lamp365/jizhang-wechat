@@ -29,7 +29,14 @@
 3. 项目中因使用了antv/wx-f2的图表框架，如果没有node_modules目录，就需要使用npm 构建，先在根目录执行npm install，然后在开发者工具中使用：工具-》构建npm 构建完成
 
 
-#### 关于我
+#### 图片
+![img](https://gitee.com/hanyi365/jizhang-wechat/raw/master/jizhang1.png)
+![img](https://gitee.com/hanyi365/jizhang-wechat/raw/master/jizhang2.png)
+![img](https://gitee.com/hanyi365/jizhang-wechat/raw/master/jizhang3.png)
+![img](https://gitee.com/hanyi365/jizhang-wechat/raw/master/jizhang4.png)
+![img](https://gitee.com/hanyi365/jizhang-wechat/raw/master/jizhang5.png)
+![img](https://gitee.com/hanyi365/jizhang-wechat/raw/master/jizhang6.png)
+
 
 
 
